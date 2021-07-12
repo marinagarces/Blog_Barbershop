@@ -1,0 +1,89 @@
+/*Variables*/
+$fuente1: 'Playfair Display', serif;
+$fuente2: 'Roboto', sans-serif;
+$color-negro1: #121619;
+$color-negro2: #222323;
+$color-niquel: #6C6E70;
+$color-rosa: #D76C69;
+$color-blanco: #fff;
+$color-plata: #E6E7E7;
+$color-gris: #D1D1D1;
+$small: 600px;
+$medium: 900px;
+
+/*Barra de navegacion*/
+nav {
+  background-color: $color-negro1;
+  #blog {
+    color: $color-rosa;
+  }
+}
+
+/*Imagen central*/
+div {
+  h5 {
+    font-family: $fuente1;
+    font-style: italic;
+    font-size: 50px;
+  }
+}
+
+
+/*Parrafo Central*/
+section {
+  color: $color-niquel;
+  h4 {
+    font-family: $fuente1;
+  }
+  p {
+    font-family: $fuente2;
+  }
+  #destacado {
+   color: $color-rosa;
+  }
+  .btn {
+    border-radius: 5em;
+    margin: 10px;
+  }
+}
+
+/*Imagen con paginacion*/
+.bordeCaja{
+  padding-left: 2%;
+  padding-right: 2%;
+  div {
+    h3 {
+      font-family: $fuente1;
+      font-style: italic;
+    }
+    .RRSS {
+      font-family: $fuente2;
+      color: $color-rosa;
+    }
+  }
+  div {
+    .NaomiP {
+      font-family: $fuente2;
+      color: $color-niquel;
+      @media screen and (max-width: 600px){
+        display: none;
+      }
+      @media screen and (max-width: 900px){
+        display: none;
+        }
+    }
+  }
+}
+div {
+  .bg-paginacion {
+   background-color: $color-plata;
+   border-radius: 0%;
+
+  }
+}
+
+/*Footer*/
+footer {
+  margin-top: -5%;
+  background-color: $color-negro1;
+}

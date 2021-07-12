@@ -1,0 +1,74 @@
+/*Variables*/
+/*Barra de navegacion*/
+nav {
+  background-color: #121619;
+}
+nav #blog {
+  color: #D76C69;
+}
+
+/*Imagen central*/
+div h5 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 50px;
+}
+
+/*Parrafo Central*/
+section {
+  color: #6C6E70;
+}
+section h4 {
+  font-family: "Playfair Display", serif;
+}
+section p {
+  font-family: "Roboto", sans-serif;
+}
+section #destacado {
+  color: #D76C69;
+}
+section .btn {
+  border-radius: 5em;
+  margin: 10px;
+}
+
+/*Imagen con paginacion*/
+.bordeCaja {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.bordeCaja div h3 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+.bordeCaja div .RRSS {
+  font-family: "Roboto", sans-serif;
+  color: #D76C69;
+}
+.bordeCaja div .NaomiP {
+  font-family: "Roboto", sans-serif;
+  color: #6C6E70;
+}
+@media screen and (max-width: 600px) {
+  .bordeCaja div .NaomiP {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bordeCaja div .NaomiP {
+    display: none;
+  }
+}
+
+div .bg-paginacion {
+  background-color: #E6E7E7;
+  border-radius: 0%;
+}
+
+/*Footer*/
+footer {
+  margin-top: -5%;
+  background-color: #121619;
+}
+
+/*# sourceMappingURL=main.css.map */
